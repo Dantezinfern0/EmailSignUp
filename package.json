@@ -1,5 +1,5 @@
 {
-    "name": "react-signup-verification-boilerplate",
+    "name": "react-email-sign-up",
     "version": "1.0.0",
     "repository": {
         "type": "git",
@@ -11,24 +11,24 @@
         "start": "webpack-dev-server --open"
     },
     "dependencies": {
-        "formik": "^2.1.4",
+        "formik": "^2.1.5",
         "history": "^4.10.1",
         "prop-types": "^15.7.2",
         "query-string": "^6.11.0",
         "react": "^16.8.6",
         "react-dom": "^16.8.6",
         "react-router-dom": "^5.0.0",
-        "rxjs": "^6.3.3",
+        "rxjs": "^6.6.0",
         "yup": "^0.28.1"
     },
     "devDependencies": {
-        "@babel/core": "^7.4.3",
-        "@babel/preset-env": "^7.4.3",
-        "@babel/preset-react": "^7.0.0",
+        "@babel/core": "^7.10.5",
+        "@babel/preset-env": "^7.10.4",
+        "@babel/preset-react": "^7.10.4",
         "babel-loader": "^8.0.5",
         "css-loader": "^3.4.2",
         "html-webpack-plugin": "^3.2.0",
-        "less": "^3.11.0",
+        "less": "^3.12.2",
         "less-loader": "^5.0.0",
         "path": "^0.12.7",
         "style-loader": "^1.1.3",
