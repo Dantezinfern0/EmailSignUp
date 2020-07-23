@@ -1,7 +1,7 @@
 ﻿{
-    "connectionString": "mongodb+srv://danteharasz@gmail.com:KHsykCcW8VRrnRg@emailsignup.xvh2f.mongodb.net/EmailSignUp?retryWrites=true&w=majority",
+    "connectionString": "mongodb+srv://KHsykCcW8VRrnRg:g1ZRHmO5a7WlzNIE@emailsignup.xvh2f.mongodb.net/EmailSignUp?retryWrites=true&w=majority",
     "secret": "16127717-efa9-4988-ba1c-3d825b273500",
-    "emailFrom": "info@node-mongo-signup-verification-api.com",
+    "emailFrom": "info@ethereal.com",
     "smtpOptions": {
         "host": "smtp.ethereal.email",
         "port": 587,

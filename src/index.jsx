@@ -13,14 +13,15 @@ import './styles.less';
 // configureFakeBackend();
 
 // setup real backend
-// const MongoClient = require('mongodb').MongoClient;
-// const uri = "mongodb+srv://danteharasz@gmail.com:KHsykCcW8VRrnRg@emailsignup.xvh2f.mongodb.net/EmailSignUp?retryWrites=true&w=majority";
-// const client = new MongoClient(uri, { useNewUrlParser: true });
-// client.connect(err => {
-//   const collection = client.db("test").collection("devices");
-//   // perform actions on the collection object
-//   client.close();
-// });
+const MongoClient = require('mongodb').MongoClient;
+const uri = "mongodb+srv://danteharasz@gmail.com:KHsykCcW8VRrnRg@emailsignup.xvh2f.mongodb.net/EmailSignUp?retryWrites=true&w=majority";
+const client = new MongoClient(uri, { useNewUrlParser: true });
+client.connect(err => {
+  const collection = client.db("test").collection("devices");
+  // perform actions on the collection object
+  console.log(collection)
+  client.close();
+});
 
 
 // attempt silent token refresh before startup
